@@ -1,0 +1,485 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(170deg,#060622, #414153);
+}
+
+
+/* Header */
+
+.ul-style {
+    position: fixed;
+    top: 10px;
+    left: 33%;
+    border-radius: 30px;
+    width: 35%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 28, 44);
+    opacity: 0.75;
+}
+
+.ul-style:hover {
+    background-color: rgb(35, 36, 49);
+}
+
+.ul-style li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.ul-style li a:hover {
+    color: rgb(250, 150, 150);
+    cursor: pointer;
+}
+
+.div-img {
+    padding-top: 100px;
+    width: 50%;
+    margin: auto;
+    padding-left: 5%;
+}
+
+#img {
+    width: 125px;
+    height: 125px;
+    border: 2px solid rgb(20, 21, 32);
+    border-radius: 8dvh;
+}
+
+/* Main > section = Acerca de */
+
+.sobremi {
+    padding-top: 35px;
+    margin: auto;
+    width: 50%;
+
+    #sobremi-h2 {
+        color: white;
+        font-size: 40px;
+    }
+
+    #sobremi-paragraph {
+        color: azure;
+        padding-top: 15px;
+        font-size: 15px;
+        width: 55%;
+        text-align: justify;
+        font-weight: 400;
+    }
+
+    #sobremi-span {
+        color: rgb(250, 150, 150);
+    }
+}
+
+/* Main > section = Social */
+
+.social {
+    padding-top: 150px;
+    margin: auto;
+    width: 50%;
+
+    #social-h2 {
+        color: white;
+        width: 45%;
+        font-size: 40px;
+    }
+}
+
+.icons-social {
+    display: flex;
+    column-gap: 60px;
+    margin: auto;
+    width: 50%;
+
+    #icon-a {
+        margin-top: 20px;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        width: 16%;
+        background-color: rgb(27, 28, 44);
+        border: 2px solid rgb(20, 21, 32);
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 15px;
+        color: white;
+    }
+
+    #icon-a:hover {
+        color: rgb(200, 200, 255);
+        box-shadow: 2.5px -1px 10px rgb(20, 21, 32);
+        cursor: pointer;
+    }
+
+    #icon-a2 {
+        margin-top: 20px;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        width: 16%;
+        background-color: rgb(27, 28, 44);
+        border: 2px solid rgb(20, 21, 32);
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 15px;
+        color: white;
+    }
+
+    #icon-a2:hover {
+        color: rgb(200, 200, 255);
+        box-shadow: 2.5px -1px 10px rgb(20, 21, 32);
+        cursor: pointer;
+    }
+}
+
+.icons-social a svg {
+    vertical-align: middle;
+}
+
+/* Main > section = Proyectos/Actividad */
+
+.proyectos {
+    padding-top: 100px;
+    margin: auto;
+    width: 50%;
+
+    #proyectos-h2 {
+        color: white;
+        font-size: 40px;
+    }
+
+    #proyectos-paragraph {
+        padding-top: 15px;
+        color: azure;
+        font-size: 15px;
+    }
+}
+
+.proyectos-código {
+    display: flex;
+    column-gap: 500px;
+
+    #proyectos-h2-2 {
+        color: rgb(250, 150, 150);
+        margin-top: 15px;
+        font-size: 35px;
+    }
+}
+
+.proyectos-código a {
+    margin: auto;
+    width: 125px;
+    padding: 10px;
+    background-color: rgb(27, 28, 44);
+    border: 2px solid rgb(20, 21, 32);
+    border-radius: 15px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.proyectos-código a:hover {
+    color: rgb(200, 200, 255);
+    box-shadow: 2.5px -1px 10px rgb(20, 21, 32);
+    cursor: pointer;
+}
+
+.proyectos-código svg {
+    vertical-align: middle;
+}
+
+.div-icon {
+    display: flex;
+    padding-top: 15px;
+    margin: auto;
+    width: 50%;
+    column-gap: 40px;
+}
+
+.div-icon li {
+    list-style: none;
+    width: 10%;
+    text-align: center;
+    background-color: rgb(27, 28, 44);
+    border: 2px solid rgb(20, 21, 32);
+    border-radius: 10px;
+}
+
+.div-proyecto {
+    padding-top: 25px;
+    text-align: center;
+    width: 100%;
+
+    #img-proyecto {
+        width: 500px;
+        height: 250px;
+        align-self: center;
+        border-radius: 15px;
+        border: 1px solid rgb(40, 40, 51);
+    }
+}
+
+#img-proyecto:hover {
+    box-shadow: 0px 0px 30px rgb(35, 36, 49);
+}
+
+.actividades {
+    padding-top: 40px;
+    margin: auto;
+    width: 50%;
+}
+
+.actividades p {
+    color: azure;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.div-link {
+    position: relative;
+    top: 15px;
+    background-color: rgb(27, 28, 44);
+    border: 2px double rgb(20, 21, 32);
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 10px;
+
+    #link {
+        font-size: 18px;
+        color: white;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}
+
+#link:hover {
+    color: rgb(200, 200, 255);
+    box-shadow: 2.5px -1px 20px rgb(20, 21, 32);
+    cursor: pointer;
+}
+
+.div-link svg {
+    vertical-align: middle;
+}
+
+.div-actividad {
+    display: flex;
+    column-gap: 550px;
+
+    #actividad {
+        font-size: 35px;
+        color: rgb(250, 150, 150);
+    }
+}
+
+.div-fold5 {
+    padding-top: 30px;
+    text-align: center;
+
+    #img-fold5 {
+        width: 500px;
+        border-radius: 15px;
+        border: 1px solid rgb(40, 40, 51);
+    }
+}
+
+#img-fold5:hover {
+    box-shadow: 0px 0px 50px rgb(35, 36, 49);
+}
+
+/* Main > section = Habilidades */
+
+.div-habilidades {
+    padding-top: 40px;
+    margin: auto;
+    width: 50%;
+
+    #paragraph {
+        font-size: 40px;
+        color: white;
+    }
+}
+
+.div-span-habilidades {
+    display: flex;
+    column-gap: 50px;
+    padding-top: 20px;
+    text-align: center;
+
+    #span-html {
+        width: 100px;
+        background-color: rgb(255, 204, 108);
+        border: 2px solid rgb(241, 157, 0);
+        padding: 10px;
+        border-radius: 10dvh;
+        color: white;
+        font-weight: 600;
+    }
+
+    #span-html:hover {
+        box-shadow: 0px 0px 20px rgb(241, 157, 0);
+        color: rgb(241, 157, 0);
+    }
+
+    #span-css {
+        width: 100px;
+        background-color: rgb(187, 187, 255);
+        border: 2px solid rgb(92, 92, 253);
+        padding: 10px;
+        border-radius: 10dvh;
+        color: white;
+        font-weight: 600;
+    }
+
+    #span-css:hover {
+        box-shadow: 0px 0px 20px rgb(92, 92, 253);
+        color: rgb(92, 92, 253);
+    }
+}
+
+/* Main > section = Contacto */
+
+.formulario {
+    padding: 80px;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    top: 10px;
+    text-align: center;
+}
+
+.formulario h2 {
+    position: relative;
+    bottom: 35px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+.formulario h2 u {
+    text-decoration-color: rgb(250, 150, 150);
+}
+
+.div-name {
+    position: relative;
+    bottom: 15px;
+    
+    #name {
+        background-color: rgb(27, 28, 44);
+        border: 2px double rgb(20, 21, 32);
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+    }
+}
+
+.div-name input {
+    caret-color: white;
+    color: white;
+}
+
+.div-email {
+    position: relative;
+
+    #email {
+        background-color: rgb(27, 28, 44);
+        border: 2px double rgb(20, 21, 32);
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+    }
+}
+
+.div-email input {
+    caret-color: white;
+    color: white;
+}
+
+.div-mensaje {
+    position: relative;
+    top: 15px;
+
+    #mensaje {
+        background-color: rgb(27, 28, 44);
+        border: 2px double rgb(20, 21, 32);
+        width: 30%;
+        height: 80px;
+        border-radius: 10px;
+        resize: none;
+    }
+}
+
+.div-mensaje textarea {
+    caret-color: white;
+    color: white;
+    padding: 5px 5px;
+}
+
+.div-enviar {
+    position: relative;
+    top: 30px;
+
+    #enviar {
+        background-color: rgb(27, 28, 44);
+        border: 2px double rgb(20, 21, 32);
+        padding: 10px;
+        width: 30%;
+        border-radius: 10px;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+#enviar:hover {
+    color: rgb(250, 150, 150);
+    background-color: rgb(35, 36, 49);
+    cursor: pointer;
+}
+
+.redes-sociales {
+    width: 100%;
+    margin-top: 40px;
+    padding: 25px;
+    display: flex;
+    background-color: rgb(27, 28, 44);
+    justify-content: center;
+    gap: 50px;
+}
+
+.redes-sociales span {
+    color: rgb(204, 204, 204);
+    font-weight: 600;
+    list-style: none;
+    
+}
+
+.redes-sociales svg {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(35, 36, 49);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgb(20, 21, 32);
+}
+
+.redes-sociales svg:hover {
+    background-color: rgb(40, 40, 54);
+}
